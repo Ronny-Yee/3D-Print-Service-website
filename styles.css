@@ -1,0 +1,121 @@
+body {
+  font-family: 'Mulish', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blue-bar {
+  height: 10px;
+  background-color: hsl(205, 77%, 43%);
+}
+
+header {
+  background-color: hsl(205, 77%, 43%);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.hero {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000000;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.approach {
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.text {
+  color: hsl(205, 77%, 43%);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text h2 {
+  font-size: 2em;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.image-slider img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.our-offices {
+  background-color: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
+
+.office-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.office-details {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.office-details h4 {
+  font-size: 1.8em;
+  font-weight: 900;
+  color: hsl(205, 77%, 43%);
+}
+
+.office-details p {
+  color: #333333;
+}
+
+.email-button a {
+  color: hsl(205, 77%, 43%);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .hero,
+  .approach,
+  .our-offices {
+      padding: 20px;
+  }
+
+  .hero-text,
+  .image-slider,
+  .office-info {
+      max-width: 100%;
+  }
+}
